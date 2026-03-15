@@ -1,13 +1,6 @@
 import styles from './Success.module.css'
 
-
-export default function Success({ order , handler}) {
- 
-
-
-
- 
-
+export default function Success({ order, handler }) {
   const sampleOrder = {
     id: 4582,
     productos: [
@@ -17,8 +10,8 @@ export default function Success({ order , handler}) {
     total: 68000,
   }
 
-  const data = order || sampleOrder // final order data
-  
+  const data = order || sampleOrder 
+
   return (
     <div className={styles.container}>
       <h1>🎉 ¡Gracias por tu compra!</h1>
@@ -31,9 +24,8 @@ export default function Success({ order , handler}) {
 
       <ul>
         {data.productos.map((p, i) => (
-           <li key={i} className={styles.productItem}> 
-             <img src={p.image} alt="" style={{width:100, height:100}} />
-
+          <li key={i} className={styles.productItem}>
+            <img src={p.image} alt="" style={{ width: 100, height: 100 }} />
             {p.name} × {p.cantidad} — ${p.price * p.cantidad}
           </li>
         ))}
@@ -46,4 +38,3 @@ export default function Success({ order , handler}) {
     </div>
   )
 }
-

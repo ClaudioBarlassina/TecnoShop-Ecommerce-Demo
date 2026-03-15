@@ -11,7 +11,7 @@ export default function Checkout({ productos = [], onConfirm , resEmail }) {
     telefono: '',
     direccion: '',
   })
-  const [errors, setErrors] = useState({}) // almacenar mensajes de validación
+  const [errors, setErrors] = useState({}) 
 
   const total = useMemo(() => {
     return productos.reduce((acc, item) => acc + item.price * item.cantidad, 0)
@@ -23,7 +23,7 @@ export default function Checkout({ productos = [], onConfirm , resEmail }) {
       ...form,
       [name]: value,
     })
-    // borrar error de ese campo si existía
+    
     if (errors[name]) {
       setErrors({
         ...errors,
@@ -33,7 +33,7 @@ export default function Checkout({ productos = [], onConfirm , resEmail }) {
   }
 
   const handleSubmit = async () => {
-  // validación básica
+ 
   const newErrors = {}
 
   if (!form.nombre.trim()) newErrors.nombre = 'Nombre requerido'

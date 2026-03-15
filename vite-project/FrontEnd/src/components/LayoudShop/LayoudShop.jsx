@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom"
 import useStore from '../../../store/useStore'
 
 export default function LayoutShop({ children, onSearch, cartOpen, setCartOpen, prod  }) {
-  // cart={prod1:[], incr2:0, decr2:0}
+
   const [menuOpen, setMenuOpen] = useState(false)
  
    const navigate = useNavigate()
