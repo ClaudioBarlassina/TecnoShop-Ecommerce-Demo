@@ -49,6 +49,7 @@ The project includes common eCommerce features such as product filtering, pagina
 
 ## Project Structure
 
+
 project
 │
 ├── frontend
@@ -61,7 +62,8 @@ project
 │ ├── routes
 │ ├── controllers
 │ ├── services
-│
+│ └── server.js
+
 ---
 
 ## Installation
@@ -70,3 +72,38 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/ClaudioBarlassina/moducommerce.git
+
+Install dependencies.
+
+Frontend:
+
+cd frontend
+npm install
+npm run dev
+
+Backend:
+
+cd backend
+npm install
+node server.js
+Purpose of the Project
+
+This project was created as a technical demonstration of a modular full stack architecture.
+
+The goal is to showcase:
+
+reusable component design
+
+scalable architecture
+
+frontend and backend separation
+
+state management patterns
+
+Author
+
+Claudio Barlassina
+Full Stack Web Developer
+
+GitHub:
+https://github.com/ClaudioBarlassina
