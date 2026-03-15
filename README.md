@@ -47,3 +47,26 @@ The project includes common eCommerce features such as product filtering, pagina
 
 ---
 
+## Project Structure
+
+project
+│
+├── frontend
+│ ├── components
+│ ├── pages
+│ ├── store
+│ └── services
+│
+├── backend
+│ ├── routes
+│ ├── controllers
+│ ├── services
+│
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ClaudioBarlassina/moducommerce.git
