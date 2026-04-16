@@ -1,4 +1,4 @@
-# 🛍️ Full Stack eCommerce Demo
+# 🛍️ TecnoShop eCommerce Demo
 
 🌎 Language: [English](#english) | [Español](#espanol)
 
