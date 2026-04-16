@@ -57,6 +57,8 @@ cd YOUR-REPO
 
 ## Español
 
+---
+
 # 🇪🇸 README (Español)
 
 ```markdown
