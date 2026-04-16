@@ -1,104 +1,49 @@
-# Full Stack eCommerce demo
+# 🛍️ Full Stack eCommerce Demo
 
-Full Stack eCommerce demo platform built with a **decoupled frontend and backend architecture**.  
-The project demonstrates how to build a modular eCommerce system using reusable components and a custom REST API.
+Full Stack eCommerce Demo is a complete eCommerce platform built with a decoupled architecture between frontend and backend. The frontend communicates exclusively with a REST API developed using Express, allowing flexible integration into different projects.
 
-## Overview
-
-ModuCommerce is designed as a **flexible and reusable eCommerce architecture** where the frontend communicates exclusively with a backend API built with Express.
-
-All UI components were built as **fully reusable and responsive modules**, allowing them to be integrated into different projects or applications.
-
-The project includes common eCommerce features such as product filtering, pagination, shopping cart persistence and a simulated payment system.
+The system is designed with reusable, scalable, and fully responsive components, making it adaptable to various application structures.
 
 ---
 
-## Tech Stack
+## 🚀 Features
+
+- Decoupled Frontend & Backend architecture
+- REST API built with Node.js and Express
+- Reusable and scalable components
+- Fully responsive design
+- Product filtering by category, brand, and price
+- Real-time product search
+- Automatic pagination (10 products per page)
+- Persistent shopping cart
+- Custom payment flow simulation
+- Email notifications using Nodemailer
+- Global state management with Zustand
+
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
 - React
 - Vite
-- Zustand (Global State Management)
-- CSS Modules
+- Zustand
+- CSS
 
 ### Backend
 - Node.js
 - Express
-- Nodemailer (Email service)
+- Nodemailer
 
 ---
 
-## Features
+## 📦 Installation
 
-- Decoupled **Frontend / Backend architecture**
-- Custom **REST API** built with Express
-- Fully **reusable UI components**
-- **Responsive components** adaptable to any project
-- Product filtering by:
-  - Category
-  - Brand
-  - Price
-- Product search by name
-- Automatic pagination (10 products per page)
-- Persistent shopping cart
-- Simulated custom payment gateway
-- Email sending system using Nodemailer
-- Global state management using Zustand
-
----
-
-## Project Structure
-
-
-project
-│
-├── frontend
-│ ├── components
-│ ├── pages
-│ ├── store
-│ └── services
-│
-├── backend
-│ ├── routes
-│ ├── controllers
-│ ├── services
-│ └── server.js
-
----
-
-## Installation
-
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ClaudioBarlassina/moducommerce.git
-
-Install dependencies.
-
-Frontend:
-
-cd frontend
-npm install
-npm run dev
-
-Backend:
-
-cd backend
-npm install
-node server.js
-Purpose of the Project
-
-This project was created as a technical demonstration of a modular full stack architecture.
-
-The goal is to showcase:
-
-reusable component design
-
-scalable architecture
-
-frontend and backend separation
-
-state management patterns
+git clone https://github.com/YOUR-USER/YOUR-REPO.git
+cd YOUR-REPO
 
 Author
 
